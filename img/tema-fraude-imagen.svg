@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#F5EDE0"/>
+  
+  <!-- Decorative border -->
+  <rect x="10" y="10" width="380" height="280" rx="8" stroke="#D4AF37" stroke-width="3" fill="none"/>
+  <rect x="20" y="20" width="360" height="260" rx="4" stroke="#C4B5FD" stroke-width="1.5" stroke-dasharray="8 4"/>
+  
+  <!-- Quill pen -->
+  <path d="M280 40 Q240 100 180 180 L200 190 Q260 110 290 50 Z" 
+        stroke="#4C1D95" stroke-width="3" fill="rgba(196,181,253,0.4)"/>
+  <path d="M180 180 L170 220 L200 190" stroke="#6D28D9" stroke-width="3" fill="rgba(196,181,253,0.4)"/>
+  
+  <!-- Ink well -->
+  <ellipse cx="150" cy="230" rx="30" ry="15" stroke="#4C1D95" stroke-width="3" fill="rgba(196,181,253,0.3)"/>
+  <ellipse cx="150" cy="225" rx="25" ry="10" fill="#2E1065"/>
+  
+  <!-- Written text lines -->
+  <line x1="50" y1="80" x2="150" y2="80" stroke="#6D28D9" stroke-width="2" opacity="0.5"/>
+  <line x1="50" y1="100" x2="140" y2="100" stroke="#6D28D9" stroke-width="2" opacity="0.5"/>
+  <line x1="50" y1="120" x2="130" y2="120" stroke="#6D28D9" stroke-width="2" opacity="0.5"/>
+  <line x1="50" y1="140" x2="120" y2="140" stroke="#6D28D9" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Decorative flourish -->
+  <path d="M200 250 Q250 270 300 250" stroke="#D4AF37" stroke-width="2" fill="none"/>
+  <path d="M210 255 Q250 265 290 255" stroke="#D4AF37" stroke-width="1.5" fill="none"/>
+  
+  <!-- Corner decorations -->
+  <path d="M30 30 L50 30 L50 50" stroke="#D4AF37" stroke-width="3" fill="none"/>
+  <path d="M370 30 L350 30 L350 50" stroke="#D4AF37" stroke-width="3" fill="none"/>
+  <path d="M30 270 L50 270 L50 250" stroke="#D4AF37" stroke-width="3" fill="none"/>
+  <path d="M370 270 L350 270 L350 250" stroke="#D4AF37" stroke-width="3" fill="none"/>
+  
+  <!-- Eye symbol (vigilance) -->
+  <ellipse cx="320" cy="100" rx="35" ry="20" stroke="#6D28D9" stroke-width="2.5" fill="none"/>
+  <circle cx="320" cy="100" r="10" stroke="#6D28D9" stroke-width="2" fill="rgba(196,181,253,0.3)"/>
+  <circle cx="320" cy="100" r="4" fill="#4C1D95"/>
+  
+  <!-- Title -->
+  <text x="200" y="290" text-anchor="middle" fill="#4C1D95" font-size="12" font-family="serif" font-style="italic">Tema: Prevención y Detección del Fraude</text>
+</svg>

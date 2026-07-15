@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mapa Mental — NIA 240</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Caveat:wght@400;500;600;700&family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="site-header-inner">
+<a class="brand" href="index.html">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M12 2L2 7l10 5 10-5-10-5z"/>
+<path d="M2 17l10 5 10-5"/>
+<path d="M2 12l10 5 10-5"/>
+</svg>
+NIA 210 &amp; NIA 240
+</a>
+<span class="crumb"><a href="index.html">Manuscrito</a> / <a href="nia240.html">NIA 240</a> / Mapa Mental</span>
+</div>
+</header>
+
+<main>
+<div class="page-title">
+<h1>Mapa Mental — NIA 240</h1>
+<p>Explora la estructura de la norma sobre fraude en estilo pizarra antigua.</p>
+</div>
+
+<div class="card" style="padding:1rem;background:transparent;border:none;box-shadow:none">
+  <div class="mm-container" id="mm-canvas-240">
+    <div class="mm-legend">
+      <div class="mm-legend-item"><div class="mm-legend-dot" style="background:#C4B5FD"></div>Central</div>
+      <div class="mm-legend-item"><div class="mm-legend-dot" style="background:#D4AF37"></div>Rama principal</div>
+      <div class="mm-legend-item"><div class="mm-legend-dot" style="background:#E9D8FD"></div>Subrama</div>
+    </div>
+    <div class="mm-controls">
+      <button class="mm-ctrl-btn" onclick="mmZoom('240',1.2)">+</button>
+      <button class="mm-ctrl-btn" onclick="mmZoom('240',0.8)">−</button>
+      <button class="mm-ctrl-btn" onclick="mmReset('240')" title="Reset">⟲</button>
+    </div>
+    <svg class="mm-svg" id="mm-svg-240" viewBox="0 0 900 600" preserveAspectRatio="xMidYMid meet">
+      <defs>
+        <filter id="mm-shadow-240" x="-20%" y="-20%" width="140%" height="140%">
+          <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="rgba(0,0,0,0.4)"/>
+        </filter>
+      </defs>
+      <g id="mm-viewport-240"></g>
+    </svg>
+    <div class="mm-detail" id="mm-detail-240">
+      <button class="close-btn" onclick="closeDetail('240')">×</button>
+      <h4 id="mm-detail-title-240"></h4>
+      <p id="mm-detail-desc-240"></p>
+    </div>
+  </div>
+  <p class="mm-hint">Haz clic en los nodos para ver detalles. Arrastra para mover. Usa la rueda del ratón para zoom.</p>
+</div>
+
+<div style="margin-top:1.5rem">
+<a class="back-btn" href="nia240.html">❧ Volver a NIA 240</a>
+</div>
+</main>
+
+<script src="mindmap.js"></script>
+<script>
+const mmData = {
+  "240": {
+    center: { text: "NIA 240\nFraude y\nAuditoría", desc: "Aborda las responsabilidades del auditor con respecto al fraude en una auditoría de estados financieros.", x: 450, y: 300, level: 0, color: "#4C1D95" },
+    branches: [
+      {
+        text: "Responsabilidad\nDirección", desc: "La responsabilidad primaria para la prevención y detección del fraude recae en la dirección y los responsables del gobierno.",
+        x: 220, y: 130, level: 1, color: "#D4AF37",
+        sub: [
+          { text: "Prevención\nfraude", desc: "Establecer un entorno de control que promueva honestidad y comportamiento ético.", x: 90, y: 60, level: 2, color: "#C4B5FD" },
+          { text: "Control\ninterno", desc: "Diseñar, implementar y mantener un sistema de control interno eficaz.", x: 90, y: 200, level: 2, color: "#C4B5FD" }
+        ]
+      },
+      {
+        text: "Responsabilidad\nAuditor", desc: "El auditor debe obtener una seguridad razonable de que los estados financieros están libres de incorrecciones materiales.",
+        x: 680, y: 130, level: 1, color: "#D4AF37",
+        sub: [
+          { text: "Seguridad\nrazonable", desc: "Obtener evidencia suficiente y apropiada para respaldar su opinión.", x: 810, y: 60, level: 2, color: "#C4B5FD" },
+          { text: "Escepticismo\nprofesional", desc: "Mantener actitud de cuestionamiento mental y evaluación crítica.", x: 810, y: 200, level: 2, color: "#C4B5FD" }
+        ]
+      },
+      {
+        text: "Tipos\nde Fraude", desc: "La norma identifica dos tipos principales de manifestaciones intencionales del fraude.",
+        x: 680, y: 470, level: 1, color: "#D4AF37",
+        sub: [
+          { text: "Información\nfinanciera\nfraudulenta", desc: "Manipulación deliberada de registros o representación errónea.", x: 810, y: 400, level: 2, color: "#C4B5FD" },
+          { text: "Apropiación\nindebida\nde activos", desc: "Robo de activos de la entidad, como efectivo o inventario.", x: 810, y: 540, level: 2, color: "#C4B5FD" }
+        ]
+      },
+      {
+        text: "Evaluación\nRiesgos", desc: "El auditor debe evaluar los riesgos de incorrección material debida a fraude.",
+        x: 220, y: 470, level: 1, color: "#D4AF37",
+        sub: [
+          { text: "Riesgo a nivel\nde estados\nfinancieros", desc: "Identificar riesgos que puedan afectar la totalidad de los estados.", x: 90, y: 400, level: 2, color: "#C4B5FD" },
+          { text: "Riesgo a nivel\nde saldos", desc: "Identificar riesgos en saldos de cuentas y transacciones.", x: 90, y: 540, level: 2, color: "#C4B5FD" }
+        ]
+      },
+      {
+        text: "Respuesta\nRiesgos", desc: "Diseñar e implementar procedimientos que respondan a los riesgos evaluados.",
+        x: 450, y: 520, level: 1, color: "#2E1065",
+        sub: [
+          { text: "Procedimientos\nsustantivos", desc: "Pruebas para obtener evidencia sobre exactitud y integridad.", x: 310, y: 580, level: 2, color: "#C4B5FD" },
+          { text: "Procedimientos\nde control", desc: "Evaluar eficacia de controles relacionados con riesgos de fraude.", x: 590, y: 580, level: 2, color: "#C4B5FD" }
+        ]
+      }
+    ]
+  }
+};
+const mmState = { "240": { scale: 1, tx: 0, ty: 0 } };
+renderMindMap("240");
+setupPanZoom("240");
+</script>
+</body>
+</html>
