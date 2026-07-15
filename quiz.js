@@ -30,8 +30,7 @@ function checkQuiz(n){
       feedbackEl.innerHTML="<strong>✦ Correcto</strong>" + (d[i].exp ? "<br>"+d[i].exp : "");
     }else{
       feedbackEl.classList.add("incorrect");
-      var correctAns=d[i].o[d[i].a];
-      feedbackEl.innerHTML="<strong>❧ Incorrecto</strong> — La respuesta correcta es: <em>"+correctAns+"</em>" + (d[i].exp ? "<br>"+d[i].exp : "");
+      feedbackEl.innerHTML="<strong>❧ Incorrecto</strong>" + (d[i].exp ? "<br>"+d[i].exp : "");
     }
   }
   
