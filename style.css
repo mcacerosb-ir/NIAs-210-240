@@ -361,6 +361,24 @@ li::marker { color: var(--gold-500); }
   box-shadow: var(--shadow-medium);
 }
 
+.audio-btn.playing {
+  background: linear-gradient(135deg, #1a5c1a, #2d8a2d);
+  border-color: #4caf50;
+  box-shadow: 0 0 12px rgba(76, 175, 80, 0.4);
+}
+
+.audio-btn.paused {
+  background: linear-gradient(135deg, var(--purple-400), var(--purple-500));
+  border-color: var(--gold-300);
+  animation: pulseGold 1.5s infinite;
+}
+
+.audio-btn.stopped {
+  background: linear-gradient(135deg, var(--gold-600), var(--gold-500));
+  color: var(--purple-900);
+  border-color: var(--purple-600);
+}
+
 .audio-btn.pause {
   background: linear-gradient(135deg, var(--purple-400), var(--purple-500));
   border-color: var(--gold-300);
