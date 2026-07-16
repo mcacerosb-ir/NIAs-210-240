@@ -187,7 +187,7 @@ NIA 210 &amp; NIA 240
 <p style="color:var(--ink-muted);font-size:0.9rem;margin-bottom:1rem;font-style:italic">Reproduce el resumen en audio de la NIA 240.</p>
 <div class="audio-controls">
 <button class="audio-btn play" onclick="speak(document.getElementById('nia240-text').textContent.trim(),'240')">▶ Reproducir</button>
-<button class="audio-btn pause" onclick="stopSpeech()">❚❚ Pausar</button>
+<button class="audio-btn pause" onclick="togglePause()">❚❚ Pausar</button>
 <button class="audio-btn stop" onclick="cancelSpeech()">■ Detener</button>
 </div>
 <div class="audio-status" id="status-240"></div>
